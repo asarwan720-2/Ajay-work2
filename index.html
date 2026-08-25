@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Download App</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+}
+
+/* BACKGROUND */
+.main{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.55)),
+        url("file_00000000fb9c7207925907444472e700.png");
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+}
+
+/* CENTER BOX */
+.box{
+    width:100%;
+    max-width:400px;
+    text-align:center;
+    padding:30px 20px;
+}
+
+/* LOGO */
+.logo{
+    width:140px;
+    height:140px;
+    object-fit:contain;
+    border-radius:50%;
+    background:white;
+    padding:5px;
+    box-shadow:0 5px 25px rgba(0,0,0,0.5);
+    margin-bottom:25px;
+}
+
+/* DOWNLOAD BUTTON */
+.download{
+    display:block;
+    width:100%;
+    padding:16px;
+    background:#ff7a00;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.4);
+    margin-bottom:25px;
+}
+
+.download:active{
+    transform:scale(0.97);
+}
+
+/* LETTER */
+.letter{
+    background:rgba(255,255,255,0.93);
+    color:#222;
+    border-radius:12px;
+    padding:20px;
+    text-align:left;
+    font-size:16px;
+    line-height:1.6;
+    box-shadow:0 5px 20px rgba(0,0,0,0.35);
+}
+
+.letter-title{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="box">
+
+        <!-- LOGO -->
+        <img src="file_000000004b44820781136fc527913b69.png" class="logo" alt="Logo">
+
+        <!-- DOWNLOAD BUTTON -->
+        <a href="YOUR_APK_DOWNLOAD_LINK_HERE"
+           class="download">
+            ⬇ DOWNLOAD APK
+        </a>
+
+        <!-- ADMIN MESSAGE -->
+        <div class="letter">
+            <div class="letter-title">
+                Welcome
+            </div>
+
+            <div id="adminMessage">
+                balaji-das-satta app
+                is app me apsabka sawagat he 
+                isme milta he apko rate
+                1 rs ke 90 rs 
+                10 rs ke 950 rs
+                or refer krne pr apko har play ki gai game 
+                pr 3% tak ki comishio to jaldi kre dowload
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+  </html>
